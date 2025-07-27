@@ -1,0 +1,10 @@
+Items: {
+	Fishing: {
+		AdamantiteFishingRod: {
+			DisplayName: Adamantite Fishing Rod
+			Tooltip: ""
+		}
+	}
+}
+
+Projectiles.Typeless.AdamantiteBobber.DisplayName: Adamantite Bobber

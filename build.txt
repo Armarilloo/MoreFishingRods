@@ -1,0 +1,3 @@
+displayName = More Fishing Rods
+author = Armarilloo
+version = 0.1
