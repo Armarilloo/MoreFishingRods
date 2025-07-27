@@ -9,8 +9,8 @@ public class AdamantiteBobber : ModProjectile, ILocalizedModType
 
     public override void SetDefaults()
     {
-        Projectile.width = 30;
-        Projectile.height = 30;
+        Projectile.width = 14;
+        Projectile.height = 20;
         Projectile.aiStyle = ProjAIStyleID.Bobber;
         Projectile.bobber = true;
     }
