@@ -34,6 +34,7 @@ namespace MoreFishingRods.Items.Fishing.FishingRods
             lineOriginOffset = new Vector2(47f, -33f);
             lineColor = new Color(208, 208, 208);
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
