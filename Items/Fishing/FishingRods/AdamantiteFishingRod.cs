@@ -12,8 +12,8 @@ namespace MoreFishingRods.Items.Fishing.FishingRods
 
         public override void SetDefaults()
         {
-            Item.width = 29;
-            Item.height = 17;
+            Item.width = 48;
+            Item.height = 48;
             Item.useAnimation = 8;
             Item.useTime = 8;
             Item.useStyle = ItemUseStyleID.Swing;
@@ -32,14 +32,8 @@ namespace MoreFishingRods.Items.Fishing.FishingRods
         )
         {
             lineOriginOffset = new Vector2(47f, -33f);
-            lineColor = new Color(255, 209, 202, 255);
+            lineColor = new Color(208, 208, 208);
         }
-
-        public override Vector2? HoldoutOffset()
-        {
-            return new Vector2(0f, 0f);
-        }
-
         public override void AddRecipes()
         {
             CreateRecipe()
