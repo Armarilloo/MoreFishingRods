@@ -23,6 +23,8 @@ public abstract class BaseModFishingRod : ModItem
     public abstract int CraftingIngredient { get; }
     public abstract int CraftingTile { get; }
 
+    public virtual Color LineColor => new Color(208, 208, 208);
+
     public override void SetDefaults()
     {
         Item.width = Width;
@@ -45,7 +47,7 @@ public abstract class BaseModFishingRod : ModItem
     )
     {
         lineOriginOffset = new Vector2(47f, -33f);
-        lineColor = new Color(208, 208, 208);
+        lineColor = LineColor;
     }
 
     public override void AddRecipes()
