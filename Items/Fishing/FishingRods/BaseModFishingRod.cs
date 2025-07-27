@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -15,6 +16,7 @@ public abstract class BaseModFishingRod : ModItem
     public abstract int FishingPower { get; }
 
     public abstract int BobberProjectile { get; }
+    public virtual uint ProjectileCount => 1;
     public abstract int Value { get; }
     public abstract int Rarity { get; }
 
@@ -49,5 +51,31 @@ public abstract class BaseModFishingRod : ModItem
     public override void AddRecipes()
     {
         CreateRecipe().AddIngredient(CraftingIngredient, 6).AddTile(CraftingTile).Register();
+    }
+
+    public override bool Shoot(
+        Player player,
+        EntitySource_ItemUse_WithAmmo source,
+        Vector2 position,
+        Vector2 velocity,
+        int type,
+        int damage,
+        float knockback
+    )
+    {
+        for (var i = 0; i < ProjectileCount; i++)
+        {
+            Projectile.NewProjectile(
+                source,
+                position,
+                velocity.RotatedByRandom(MathHelper.ToRadians(18f)),
+                type,
+                0,
+                0f,
+                player.whoAmI,
+                ai2: Main.rand.Next(2)
+            );
+        }
+        return false;
     }
 }
