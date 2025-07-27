@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace MoreFishingRods.Projectiles.Typeless;
 
-public class BaseModBobber : ModProjectile
+public abstract class BaseModBobber : ModProjectile
 {
     public virtual int Width => 14;
     public virtual int Height => 20;
