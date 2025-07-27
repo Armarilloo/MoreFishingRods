@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
+using MoreFishingRods.Projectiles.Typeless;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using MoreFishingRods.Projectiles.Typeless;
 
 namespace MoreFishingRods.Items.Fishing.FishingRods
 {
@@ -25,7 +25,11 @@ namespace MoreFishingRods.Items.Fishing.FishingRods
             Item.rare = ItemRarityID.LightRed;
         }
 
-        public override void ModifyFishingLine(Projectile bobber, ref Vector2 lineOriginOffset, ref Color lineColor)
+        public override void ModifyFishingLine(
+            Projectile bobber,
+            ref Vector2 lineOriginOffset,
+            ref Color lineColor
+        )
         {
             lineOriginOffset = new Vector2(47f, -33f);
             lineColor = new Color(255, 209, 202, 255);
