@@ -4,7 +4,26 @@ Items: {
 			DisplayName: Adamantite Fishing Rod
 			Tooltip: ""
 		}
+
+		FishingRods: {
+			ChlorophyteDoubleRod: {
+				DisplayName: Chlorophyte Double Rod
+				Tooltip: ""
+			}
+		}
+	}
+
+	AdamantiteFishingRod: {
+		DisplayName: Adamantite Fishing Rod
+		Tooltip: ""
 	}
 }
 
-Projectiles.Typeless.AdamantiteBobber.DisplayName: Adamantite Bobber
+Projectiles: {
+	Typeless: {
+		AdamantiteBobber.DisplayName: Adamantite Bobber
+		ChlorophyteBobber.DisplayName: Chlorophyte Bobber
+	}
+
+	AdamantiteBobber.DisplayName: Adamantite Bobber
+}
