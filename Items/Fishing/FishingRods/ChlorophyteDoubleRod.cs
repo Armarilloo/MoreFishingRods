@@ -1,3 +1,4 @@
+using Microsoft.Xna.Framework;
 using MoreFishingRods.Projectiles.Typeless;
 using Terraria;
 using Terraria.ID;
@@ -14,4 +15,5 @@ public class ChlorophyteDoubleRod : BaseModFishingRod
     public override int Rarity => ItemRarityID.Lime;
     public override int CraftingIngredient => ItemID.ChlorophyteBar;
     public override int CraftingTile => TileID.MythrilAnvil;
+    public override Color LineColor => new Color(234, 254, 126);
 }

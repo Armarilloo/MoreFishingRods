@@ -31,6 +31,15 @@ Items: {
 			Casts two lines at once
 			'''
 	}
+
+	Shroomcaster: {
+		DisplayName: Shroomcaster
+		Tooltip:
+			'''
+			A powerful rod forged with a planty metal and fungal fiber
+			Casts two lines at once
+			'''
+	}
 }
 
 Projectiles: {
@@ -43,4 +52,5 @@ Projectiles: {
 	ChlorophyteBobber.DisplayName: Chlorophyte Bobber
 	SpectreBobber.DisplayName: Spectre Bobber
 	SpectralBobber.DisplayName: Spectral Bobber
+	ShroomiteBobber.DisplayName: Shroomite Bobber
 }

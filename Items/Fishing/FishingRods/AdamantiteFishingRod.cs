@@ -1,4 +1,5 @@
-﻿using MoreFishingRods.Projectiles.Typeless;
+﻿using Microsoft.Xna.Framework;
+using MoreFishingRods.Projectiles.Typeless;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -13,4 +14,5 @@ public class AdamantiteFishingRod : BaseModFishingRod
     public override int Rarity => ItemRarityID.LightRed;
     public override int CraftingIngredient => ItemID.AdamantiteBar;
     public override int CraftingTile => TileID.MythrilAnvil;
+    public override Color LineColor => new Color(208, 208, 208);
 }
