@@ -15,12 +15,16 @@ Items: {
 
 	AdamantiteFishingRod: {
 		DisplayName: Adamantite Fishing Rod
-		Tooltip: ""
+		Tooltip: "Can fish in lava"
 	}
 
 	ChlorophyteDoubleRod: {
 		DisplayName: Chlorophyte Double Rod
-		Tooltip: Casts two lines at once
+		Tooltip:
+        			'''
+        			Can fish in Lava
+        			Casts two lines at once
+        			'''
 	}
 
 	SpectralFishingRod: {
@@ -42,13 +46,13 @@ Items: {
 	}
 
 	TitaniumFishingRod: {
-		Tooltip: ""
 		DisplayName: Titanium Fishing Rod
+	    Tooltip: "Can fish in lava"
 	}
 
 	CobaltFishingRod: {
 		DisplayName: Cobalt Fishing Rod
-		Tooltip: ""
+		Tooltip: "Can fish in lava"
 	}
 
 	CopperFishingRod: {
