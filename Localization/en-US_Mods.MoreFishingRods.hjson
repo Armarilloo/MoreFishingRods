@@ -17,6 +17,20 @@ Items: {
 		DisplayName: Adamantite Fishing Rod
 		Tooltip: ""
 	}
+
+	ChlorophyteDoubleRod: {
+		DisplayName: Chlorophyte Double Rod
+		Tooltip: Casts two lines at once
+	}
+
+	SpectralFishingRod: {
+		DisplayName: Spectral Fishing Rod
+		Tooltip:
+			'''
+			A very shiny fishing rod
+			Casts two lines at once
+			'''
+	}
 }
 
 Projectiles: {
@@ -26,4 +40,7 @@ Projectiles: {
 	}
 
 	AdamantiteBobber.DisplayName: Adamantite Bobber
+	ChlorophyteBobber.DisplayName: Chlorophyte Bobber
+	SpectreBobber.DisplayName: Spectre Bobber
+	SpectralBobber.DisplayName: Spectral Bobber
 }
