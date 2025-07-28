@@ -25,6 +25,8 @@ public abstract class BaseModFishingRod : ModItem
 
     public virtual Color LineColor => new Color(208, 208, 208);
 
+    public virtual bool CanFishInLava => false;
+
     public override void SetDefaults()
     {
         Item.width = Width;
@@ -38,6 +40,13 @@ public abstract class BaseModFishingRod : ModItem
         Item.shoot = BobberProjectile;
         Item.value = Value;
         Item.rare = Rarity;
+    }
+
+    public override void SetStaticDefaults()
+    {
+        ItemID.Sets.CanFishInLava[Item.type] = ItemID.Sets.IsLavaImmuneRegardlessOfRarity[
+            Item.type
+        ] = CanFishInLava;
     }
 
     public override void ModifyFishingLine(
