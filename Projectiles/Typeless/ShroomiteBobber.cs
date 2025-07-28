@@ -1,12 +1,8 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
 
 namespace MoreFishingRods.Projectiles.Typeless;
 
 public class ShroomiteBobber : BaseModBobber
 {
-    public override bool PreDrawExtras()
-    {
-        Lighting.AddLight(Projectile.Center, 0f, 0f, .5f);
-        return true;
-    }
+    public override Vector3? Glow => new Vector3(0f, 0f, .5f);
 }
