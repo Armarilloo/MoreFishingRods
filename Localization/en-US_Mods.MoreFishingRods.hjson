@@ -55,6 +55,11 @@ Items: {
 		DisplayName: Copper Fishing Rod
 		Tooltip: ""
 	}
+
+	GoldFishingRod: {
+		DisplayName: Gold Fishing Rod
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -71,4 +76,5 @@ Projectiles: {
 	TitaniumBobber.DisplayName: Titanium Bobber
 	CobaltBobber.DisplayName: Cobalt Bobber
 	CopperBobber.DisplayName: Copper Bobber
+	GoldBobber.DisplayName: Gold Bobber
 }
