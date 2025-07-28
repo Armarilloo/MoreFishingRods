@@ -8,12 +8,6 @@ namespace MoreFishingRods.Items.Fishing.FishingRods;
 
 public class Shroomcaster : BaseModFishingRod
 {
-    public override void SetStaticDefaults()
-    {
-        ItemID.Sets.CanFishInLava[Item.type] = true;
-        ItemID.Sets.IsLavaImmuneRegardlessOfRarity[Item.type] = true;
-    }
-
     public override int FishingPower => 45;
     public override int BobberProjectile => ModContent.ProjectileType<ShroomiteBobber>();
     public override uint ProjectileCount => 2;
@@ -22,4 +16,6 @@ public class Shroomcaster : BaseModFishingRod
     public override int CraftingIngredient => ItemID.ShroomiteBar;
     public override int CraftingTile => TileID.MythrilAnvil;
     public override Color LineColor => new Color(140, 238, 255);
+
+    public override bool CanFishInLava => true;
 }

@@ -8,12 +8,6 @@ namespace MoreFishingRods.Items.Fishing.FishingRods;
 
 public class ChlorophyteDoubleRod : BaseModFishingRod
 {
-    public override void SetStaticDefaults()
-    {
-        ItemID.Sets.CanFishInLava[Item.type] = true;
-        ItemID.Sets.IsLavaImmuneRegardlessOfRarity[Item.type] = true;
-    }
-
     public override int FishingPower => 40;
     public override int BobberProjectile => ModContent.ProjectileType<ChlorophyteBobber>();
     public override uint ProjectileCount => 2;
@@ -22,4 +16,6 @@ public class ChlorophyteDoubleRod : BaseModFishingRod
     public override int CraftingIngredient => ItemID.ChlorophyteBar;
     public override int CraftingTile => TileID.MythrilAnvil;
     public override Color LineColor => new Color(234, 254, 126);
+
+    public override bool CanFishInLava => true;
 }
