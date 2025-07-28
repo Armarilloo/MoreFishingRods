@@ -40,6 +40,11 @@ Items: {
 			Casts two lines at once
 			'''
 	}
+
+	TitaniumFishingRod: {
+		Tooltip: ""
+		DisplayName: Titanium Fishing Rod
+	}
 }
 
 Projectiles: {
@@ -53,4 +58,5 @@ Projectiles: {
 	SpectreBobber.DisplayName: Spectre Bobber
 	SpectralBobber.DisplayName: Spectral Bobber
 	ShroomiteBobber.DisplayName: Shroomite Bobber
+	TitaniumBobber.DisplayName: Titanium Bobber
 }
