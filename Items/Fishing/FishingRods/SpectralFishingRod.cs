@@ -8,6 +8,12 @@ namespace MoreFishingRods.Items.Fishing.FishingRods;
 
 public class SpectralFishingRod : BaseModFishingRod
 {
+    public override void SetStaticDefaults()
+    {
+        ItemID.Sets.CanFishInLava[Item.type] = true;
+        ItemID.Sets.IsLavaImmuneRegardlessOfRarity[Item.type] = true;
+    }
+
     public override int FishingPower => 45;
     public override int BobberProjectile => ModContent.ProjectileType<SpectralBobber>();
     public override uint ProjectileCount => 2;
