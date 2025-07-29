@@ -116,8 +116,18 @@ Items: {
 
 	Hellrod: {
 		DisplayName: Hellrod
-		Tooltip: '''
-		Forged in the depths of hell
+		Tooltip:
+			'''
+			Forged in the depths of hell
+			Can fish in lava
+			'''
+	}
+
+	HolyRod: {
+		DisplayName: Holy Rod
+		Tooltip: 
+		'''
+		Cast from heavenly forges
 		Can fish in lava
 		'''
 	}
@@ -147,4 +157,5 @@ Projectiles: {
 	TinBobber.DisplayName: Tin Bobber
 	TungstenBobber.DisplayName: Tungsten Bobber
 	HellstoneBobber.DisplayName: Hellstone Bobber
+	HallowedBobber.DisplayName: Hallowed Bobber
 }
