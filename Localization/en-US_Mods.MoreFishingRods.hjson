@@ -8,7 +8,11 @@ Items: {
 		FishingRods: {
 			ChlorophyteDoubleRod: {
 				DisplayName: Chlorophyte Double Rod
-				Tooltip: ""
+				Tooltip:
+				'''
+				Casts two lines at once
+				Can fish in lava
+				'''
 			}
 		}
 	}
@@ -42,6 +46,7 @@ Items: {
 			'''
 			A powerful rod forged with a planty metal and fungal fiber
 			Casts two lines at once
+			Can Fish in lava
 			'''
 	}
 
@@ -52,7 +57,7 @@ Items: {
 
 	CobaltFishingRod: {
 		DisplayName: Cobalt Fishing Rod
-		Tooltip: "Can fish in lava"
+		Tooltip: Can fish in lava
 	}
 
 	CopperFishingRod: {
@@ -62,7 +67,7 @@ Items: {
 
 	GoldFishingRod: {
 		DisplayName: Gold Fishing Rod
-		Tooltip: Not to be confused with the Golden Fishing Rod
+		Tooltip: "Not to be confused with the Golden Fishing Rod"
 	}
 
 	StarFisher: {
@@ -76,6 +81,11 @@ Items: {
 
 	MythrilFishingRod: {
 		DisplayName: Mythril Fishing Rod
+		Tooltip: "Can fish in lava"
+	}
+
+	OrichalcumFishingRod: {
+		DisplayName: Orichalcum Fishing Rod
 		Tooltip: "Can fish in lava"
 	}
 }
@@ -97,4 +107,5 @@ Projectiles: {
 	GoldBobber.DisplayName: Gold Bobber
 	MeteoriteBobber.DisplayName: Meteorite Bobber
 	MythrilBobber.DisplayName: Mythril Bobber
+	OrichalcumBobber.DisplayName: Orichalcum Bobber
 }
