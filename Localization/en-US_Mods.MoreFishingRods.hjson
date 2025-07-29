@@ -91,7 +91,12 @@ Items: {
 
 	PalladiumFishingRod: {
 		DisplayName: Palladium Fishing Rod
-		Tooltip: "Can fish in lava"
+		Tooltip: Can fish in lava
+	}
+
+	PlatinumFishingRod: {
+		DisplayName: Platinum Fishing Rod
+		Tooltip: ""
 	}
 }
 
@@ -114,4 +119,5 @@ Projectiles: {
 	MythrilBobber.DisplayName: Mythril Bobber
 	OrichalcumBobber.DisplayName: Orichalcum Bobber
 	PalladiumBobber.DisplayName: Palladium Bobber
+	PlatinumBobber.DisplayName: Platinum Bobber
 }
