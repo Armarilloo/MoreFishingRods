@@ -52,7 +52,7 @@ Items: {
 
 	CobaltFishingRod: {
 		DisplayName: Cobalt Fishing Rod
-		Tooltip: Can fish in lava
+		Tooltip: "Can fish in lava"
 	}
 
 	CopperFishingRod: {
@@ -73,6 +73,11 @@ Items: {
 			Can fish in lava
 			'''
 	}
+
+	MythrilFishingRod: {
+		DisplayName: Mythril Fishing Rod
+		Tooltip: "Can fish in lava"
+	}
 }
 
 Projectiles: {
@@ -91,4 +96,5 @@ Projectiles: {
 	CopperBobber.DisplayName: Copper Bobber
 	GoldBobber.DisplayName: Gold Bobber
 	MeteoriteBobber.DisplayName: Meteorite Bobber
+	MythrilBobber.DisplayName: Mythril Bobber
 }

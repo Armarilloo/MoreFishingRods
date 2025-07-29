@@ -8,9 +8,9 @@ namespace MoreFishingRods.Items.Fishing.FishingRods;
 
 public class StarFisher : BaseModFishingRod
 {
-    public override int FishingPower => 30;
+    public override int FishingPower => 20;
     public override int BobberProjectile => ModContent.ProjectileType<MeteoriteBobber>();
-    public override int Value => Item.sellPrice(gold: 1);
+    public override int Value => Item.sellPrice(gold: 1, silver: 25);
     public override int Rarity => ItemRarityID.Blue;
     public override int CraftingIngredient => ItemID.MeteoriteBar;
     public override int CraftingTile => TileID.Anvils;
