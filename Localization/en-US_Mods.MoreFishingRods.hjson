@@ -113,6 +113,14 @@ Items: {
 		DisplayName: Tungsten Fishing Rod
 		Tooltip: ""
 	}
+
+	Hellrod: {
+		DisplayName: Hellrod
+		Tooltip: '''
+		Forged in the depths of hell
+		Can fish in lava
+		'''
+	}
 }
 
 Projectiles: {
@@ -138,4 +146,5 @@ Projectiles: {
 	SilverBobber.DisplayName: Silver Bobber
 	TinBobber.DisplayName: Tin Bobber
 	TungstenBobber.DisplayName: Tungsten Bobber
+	HellstoneBobber.DisplayName: Hellstone Bobber
 }

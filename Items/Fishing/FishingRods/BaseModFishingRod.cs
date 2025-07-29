@@ -61,7 +61,7 @@ public abstract class BaseModFishingRod : ModItem
 
     public override void AddRecipes()
     {
-        CreateRecipe().AddIngredient(CraftingIngredient, 6).AddTile(CraftingTile).Register();
+        CreateRecipe().AddIngredient(CraftingIngredient, 8).AddTile(CraftingTile).Register();
     }
 
     public override bool Shoot(
