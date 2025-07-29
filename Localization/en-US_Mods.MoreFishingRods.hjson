@@ -103,6 +103,11 @@ Items: {
 		DisplayName: Silver Fishing Rod
 		Tooltip: ""
 	}
+
+	TinFishingRod: {
+		DisplayName: Tin Fishing Rod
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -126,4 +131,5 @@ Projectiles: {
 	PalladiumBobber.DisplayName: Palladium Bobber
 	PlatinumBobber.DisplayName: Platinum Bobber
 	SilverBobber.DisplayName: Silver Bobber
+	TinBobber.DisplayName: Tin Bobber
 }
