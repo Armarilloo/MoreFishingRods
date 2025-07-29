@@ -15,16 +15,16 @@ Items: {
 
 	AdamantiteFishingRod: {
 		DisplayName: Adamantite Fishing Rod
-		Tooltip: "Can fish in lava"
+		Tooltip: Can fish in lava
 	}
 
 	ChlorophyteDoubleRod: {
 		DisplayName: Chlorophyte Double Rod
 		Tooltip:
-        			'''
-        			Can fish in Lava
-        			Casts two lines at once
-        			'''
+			'''
+			Can fish in Lava
+			Casts two lines at once
+			'''
 	}
 
 	SpectralFishingRod: {
@@ -47,12 +47,12 @@ Items: {
 
 	TitaniumFishingRod: {
 		DisplayName: Titanium Fishing Rod
-	    Tooltip: "Can fish in lava"
+		Tooltip: Can fish in lava
 	}
 
 	CobaltFishingRod: {
 		DisplayName: Cobalt Fishing Rod
-		Tooltip: "Can fish in lava"
+		Tooltip: Can fish in lava
 	}
 
 	CopperFishingRod: {
@@ -62,7 +62,16 @@ Items: {
 
 	GoldFishingRod: {
 		DisplayName: Gold Fishing Rod
-		Tooltip: ""
+		Tooltip: Not to be confused with the Golden Fishing Rod
+	}
+
+	StarFisher: {
+		DisplayName: Star Fisher
+		Tooltip:
+			'''
+			A rod gifted from the heavens
+			Can fish in lava
+			'''
 	}
 }
 
@@ -81,4 +90,5 @@ Projectiles: {
 	CobaltBobber.DisplayName: Cobalt Bobber
 	CopperBobber.DisplayName: Copper Bobber
 	GoldBobber.DisplayName: Gold Bobber
+	MeteoriteBobber.DisplayName: Meteorite Bobber
 }
