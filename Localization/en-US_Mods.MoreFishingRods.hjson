@@ -98,6 +98,11 @@ Items: {
 		DisplayName: Platinum Fishing Rod
 		Tooltip: ""
 	}
+
+	SilverFishingRod: {
+		DisplayName: Silver Fishing Rod
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -120,4 +125,5 @@ Projectiles: {
 	OrichalcumBobber.DisplayName: Orichalcum Bobber
 	PalladiumBobber.DisplayName: Palladium Bobber
 	PlatinumBobber.DisplayName: Platinum Bobber
+	SilverBobber.DisplayName: Silver Bobber
 }
