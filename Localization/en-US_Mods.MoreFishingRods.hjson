@@ -125,11 +125,16 @@ Items: {
 
 	HolyRod: {
 		DisplayName: Holy Rod
-		Tooltip: 
-		'''
-		Cast from heavenly forges
-		Can fish in lava
-		'''
+		Tooltip:
+			'''
+			Cast from heavenly forges
+			Can fish in lava
+			'''
+	}
+
+	TestRod1: {
+		DisplayName: Test Rod1
+		Tooltip: ""
 	}
 }
 
@@ -158,4 +163,5 @@ Projectiles: {
 	TungstenBobber.DisplayName: Tungsten Bobber
 	HellstoneBobber.DisplayName: Hellstone Bobber
 	HallowedBobber.DisplayName: Hallowed Bobber
+	TestBobber1.DisplayName: Test Bobber1
 }

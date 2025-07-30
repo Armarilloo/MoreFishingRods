@@ -26,6 +26,7 @@ public abstract class BaseModFishingRod : ModItem
     public virtual Color LineColor => new Color(208, 208, 208);
 
     public virtual bool CanFishInLava => false;
+    public virtual Vector2 LineOriginOffset => new Vector2(47f, -33f);
 
     public override void SetDefaults()
     {
@@ -55,7 +56,7 @@ public abstract class BaseModFishingRod : ModItem
         ref Color lineColor
     )
     {
-        lineOriginOffset = new Vector2(47f, -33f);
+        lineOriginOffset = LineOriginOffset;
         lineColor = LineColor;
     }
 
