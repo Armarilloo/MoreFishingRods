@@ -141,6 +141,11 @@ Items: {
 		DisplayName: Solar Rod
 		Tooltip: ""
 	}
+
+	NebulaRod: {
+		DisplayName: Nebula Rod
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -170,4 +175,5 @@ Projectiles: {
 	HallowedBobber.DisplayName: Hallowed Bobber
 	TestBobber1.DisplayName: Test Bobber1
 	SolarBobber.DisplayName: Solar Bobber
+	NebulaBobber.DisplayName: Nebula Bobber
 }
