@@ -142,7 +142,7 @@ Items: {
 		Tooltip:
 			'''
 			Casts three lines at once
-			      Can fish in lava
+			Can fish in lava
 			'''
 	}
 
@@ -157,7 +157,19 @@ Items: {
 
 	VortexRod: {
 		DisplayName: Vortex Rod
-		Tooltip: ""
+		Tooltip:
+        			'''
+        			Casts three lines at once
+        			Can fish in lava
+        			'''
+	}
+
+	StardustRod: {
+		Tooltip:
+        			'''
+        			Casts three lines at once
+        			Can fish in lava
+        			'''
 	}
 }
 
@@ -190,4 +202,5 @@ Projectiles: {
 	SolarBobber.DisplayName: Solar Bobber
 	NebulaBobber.DisplayName: Nebula Bobber
 	VortexBobber.DisplayName: Vortex Bobber
+	StardustBobber.DisplayName: Stardust Bobber
 }

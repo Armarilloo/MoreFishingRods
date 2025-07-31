@@ -8,25 +8,25 @@ using Terraria.ModLoader;
 
 namespace MoreFishingRods.Items.Fishing.FishingRods;
 
-public class VortexRod : BaseModFishingRod
+public class StardustRod : BaseModFishingRod
 {
     public override int Width => 64;
     public override int Height => 64;
     public override int FishingPower => 50;
-    public override int BobberProjectile => ModContent.ProjectileType<VortexBobber>();
+    public override int BobberProjectile => ModContent.ProjectileType<StardustBobber>();
     public override uint ProjectileCount => 3;
     public override int Value => Item.sellPrice(gold: 8, silver: 15);
     public override int Rarity => ItemRarityID.Cyan;
     public override int CraftingIngredient => (ItemID.FragmentVortex);
     public override int CraftingTile => TileID.LunarCraftingStation;
-    public override Color LineColor => new Color(193, 255, 219, 1);
+    public override Color LineColor => new Color(196, 247, 255, 1);
 
     public override bool CanFishInLava => true;
     public override Vector2 LineOriginOffset => new Vector2(Width, -57);
 
     public override void SetStaticDefaults()
     {
-        Main.RegisterItemAnimation(Item.type, new DrawAnimationVertical(5, 7));
+        Main.RegisterItemAnimation(Item.type, new DrawAnimationVertical(5, 10));
         ItemID.Sets.AnimatesAsSoul[Type] = true;
     }
 
@@ -41,10 +41,10 @@ public class VortexRod : BaseModFishingRod
     )
     {
         Texture2D texture = ModContent
-            .Request<Texture2D>("MoreFishingRods/Items/Fishing/FishingRods/VortexRod")
+            .Request<Texture2D>("MoreFishingRods/Items/Fishing/FishingRods/StardustRod")
             .Value;
 
-        int totalFrames = 7;
+        int totalFrames = 10;
         int ticksPerFrame = 5;
         int currentFrame = (int)(Main.GameUpdateCount / ticksPerFrame) % totalFrames;
         int frameHeight = texture.Height / totalFrames;
