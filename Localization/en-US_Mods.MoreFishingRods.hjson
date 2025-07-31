@@ -140,36 +140,37 @@ Items: {
 	SolarRod: {
 		DisplayName: Solar Rod
 		Tooltip:
-			'''
-			Casts three lines at once
-			Can fish in lava
-			'''
+		'''
+		Casts three lines at once
+		Can fish in lava
+		'''
 	}
 
 	NebulaRod: {
 		DisplayName: Nebula Rod
 		Tooltip:
-			'''
-			Casts three lines at once
-			Can fish in lava
-			'''
+		'''
+		Casts three lines at once
+		Can fish in lava
+		'''
 	}
 
 	VortexRod: {
 		DisplayName: Vortex Rod
 		Tooltip:
-        			'''
-        			Casts three lines at once
-        			Can fish in lava
-        			'''
+        '''
+        Casts three lines at once
+        Can fish in lava
+        '''
 	}
 
 	StardustRod: {
+		DisplayName: Stardust Rod   
 		Tooltip:
-        			'''
-        			Casts three lines at once
-        			Can fish in lava
-        			'''
+        '''
+        Casts three lines at once
+        Can fish in lava
+        '''
 	}
 }
 
