@@ -177,9 +177,9 @@ Items: {
 		DisplayName: Rod Of The Deep One
 		Tooltip:
 			'''
-			      This rod was constructed using remnants of a long-lost sea king
-			      Casts three lines at once
-			      Can fish in lava
+			This rod was constructed using remnants of a long-lost sea king
+			Casts three lines at once
+			Can fish in lava
 			      
 			'''
 	}
