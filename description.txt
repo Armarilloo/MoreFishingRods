@@ -1,1 +1,28 @@
-This mod adds multiple fishing rods using every type of bar. (example, Hallowed Bar, Chlorophyte Bar, Luminite Bar, etc.)
+This mod adds 25 new fishing rods to the game, using 8 of any metal/lunar fragment.
+
+Content:
+
+Adamantite Fishing Rod
+Chlorophyte Fishing Rod
+Cobalt Fishing Rod
+Copper Fishing
+Gold Fishing Rod
+Hellrod
+Holy Rod
+Mythril Fishing Rod
+Nebula Fishing Rod
+Orichalcum Fishing Rod
+Palladium Fishing Rod
+Platinum Fishing Rod
+Rod Of The Deep One
+Shroomcaster
+Silver Fishing Rod
+Solar Rod
+Spectral Fishing Rod
+Stardust Rod
+Star Fisher
+TestRod1 (unobtainable)
+Tin Fishing Rod
+Titanium Fishing Rod
+Tungsten Fishing Rod
+Vortex Rod
